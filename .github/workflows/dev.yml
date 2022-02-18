@@ -1,0 +1,13 @@
+name: Test run v2 - from dev
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Show environment v2 - from dev
+        run: env | grep ^GITHUB
+      - name: Show ref v2 - from dev
+        run: echo "===============> Version from $GITHUB_REF"
