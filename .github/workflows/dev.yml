@@ -1,7 +1,9 @@
 name: Test run v2 - from dev
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - dev
 
 jobs:
   test:
