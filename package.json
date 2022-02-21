@@ -1,0 +1,23 @@
+{
+  "name": "test_gh_workflow",
+  "version": "1.0.0",
+  "description": "test serverless in nodejs with 2 github actions deploys (dev, master)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serverless offline start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrercoli/test_gh_workflow.git"
+  },
+  "author": "jrercoli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrercoli/test_gh_workflow/issues"
+  },
+  "homepage": "https://github.com/jrercoli/test_gh_workflow#readme",
+  "dependencies": {
+    "serverless-offline": "^8.5.0"
+  }
+}
